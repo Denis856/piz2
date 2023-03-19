@@ -1,0 +1,20 @@
+@font-face {
+   font-family: 'Roboto Reg', sans-serif;
+   src: url('../font/Roboto-Regular.ttf');
+}
+@font-face {
+   font-family: 'Roboto Bold', sans-serif;
+   src: url('../font/Roboto-Bold.ttf');
+}
+@font-face {
+   font-family: 'Inter Reg', sans-serif;
+   src: url('../font/Inter-Regular.ttf');
+}
+@font-face {
+   font-family: 'Inter Ex Bold', sans-serif;
+   src: url('../font/Inter-ExtraBold.ttf');
+}
+@font-face {
+   font-family: 'Inter Bold', sans-serif;
+   src: url('../font/Inter-Bold.ttf');
+}
