@@ -151,7 +151,7 @@ body {
          display: flex;
          flex-direction: column;
          align-items: center;
-         background: rgba(0, 0, 0, 0.932);
+         background: rgba(0, 0, 0, 0.8);
          height: 100vh;
          transform: rotateX(90deg) scale(0.1);
          opacity: 0;
@@ -165,7 +165,7 @@ body {
    }
    &__item {
       @media(max-width: $wd3) {
-         margin-bottom: 25px;
+         margin-bottom: 35px;
          &:last-child {
             margin-bottom: 0;
          }
@@ -177,6 +177,9 @@ body {
       color: #fff;
       &:hover {
          color: $green;
+      }
+      @media(max-width: 770px) {
+         font-size: 25px;
       }
    }
    &__btn {
@@ -389,7 +392,7 @@ body {
          width: 350px;
       }
       @media(max-width: $wd4) {
-         width: 95%;
+         width: 100%;
       }
    }
    .item2__img {
