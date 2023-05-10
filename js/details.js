@@ -3,10 +3,12 @@ var basket = document.querySelector('.basket');
 var btn_cls = document.querySelector('.basket__close');
 var btn_all2 = document.querySelectorAll('.products__img');
 var result = document.querySelector('.result');
+var body = document.querySelector('body');
 var count = document.querySelector('.header__basket span');
 
 btn_bast.onclick = () =>{
    basket.classList.add('active');
+   body.classList.add('active');
    btn_all2.forEach(item =>{
       item.classList.add('active');
    });
@@ -14,6 +16,7 @@ btn_bast.onclick = () =>{
 btn_cls.onclick = () =>{
    basket.classList.remove('active');
    result.classList.remove('active');
+   body.classList.remove('active');
    btn_all2.forEach(item =>{
       item.classList.remove('active');
    });

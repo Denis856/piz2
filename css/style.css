@@ -45,6 +45,9 @@ body {
   font-weight: 400;
   color: #2A2A2A;
 }
+body.active {
+  overflow: hidden;
+}
 
 .wrapper {
   overflow: hidden;
