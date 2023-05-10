@@ -843,7 +843,6 @@ body {
   opacity: 0;
   padding-bottom: 50px;
   overflow: hidden;
-  height: auto;
 }
 @media (max-width: 1500px) {
   .window {
@@ -965,7 +964,7 @@ body {
 
 .btn_add {
   position: absolute;
-  bottom: 30px;
+  bottom: 30%;
   right: 30px;
   padding: 10px 20px;
   font-size: 25px;
@@ -984,12 +983,12 @@ body {
   }
 }
 .btn_add:hover {
-  bottom: 35px;
+  bottom: 31%;
   -webkit-box-shadow: 0 5px 0px 0 rgb(2, 91, 2);
           box-shadow: 0 5px 0px 0 rgb(2, 91, 2);
 }
 .btn_add:active {
-  bottom: 30px;
+  bottom: 30%;
   -webkit-box-shadow: 0 0px 0px 0 rgb(2, 91, 2);
           box-shadow: 0 0px 0px 0 rgb(2, 91, 2);
 }
@@ -1077,10 +1076,10 @@ body {
 .basket__close::before, .basket__close::after {
   content: "";
   position: absolute;
-  top: 30px;
-  left: 20px;
-  width: 20px;
-  height: 4px;
+  top: 40px;
+  left: 30px;
+  width: 30px;
+  height: 5px;
   background: #000;
   border-radius: 10px;
   -webkit-transition: all 0.3s ease;
@@ -1098,7 +1097,7 @@ body {
 .basket__btn {
   padding: 10px 20px;
   border-radius: 20px;
-  margin: 0 auto;
+  margin: 40px auto;
   background: green;
   color: #fff;
   position: relative;
@@ -1215,7 +1214,7 @@ body {
   margin: 0 auto;
   font-size: 25px;
   font-weight: 600;
-  padding: 20px 0;
+  padding: 10px 15px;
 }
 .result button:hover {
   color: red;
