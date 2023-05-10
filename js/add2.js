@@ -58,6 +58,7 @@ window.addEventListener('click', function (event) {
          buy.classList.remove('active');
          count.innerHTML = '';
          count.classList.remove('active');
+         basket.classList.remove('active');
       };
 	}
 });

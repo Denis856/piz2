@@ -73,6 +73,7 @@ btn_all.forEach(item =>{
          buy.classList.remove('active');
          count.innerHTML = '';
          count.classList.remove('active');
+         basket.classList.remove('active');
       };
 
       btn_add.addEventListener('click', (e)=>{
