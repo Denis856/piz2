@@ -74,6 +74,7 @@ btn_all.forEach(item =>{
          count.innerHTML = '';
          count.classList.remove('active');
          basket.classList.remove('active');
+         body.classList.remove('active');
       };
 
       btn_add.addEventListener('click', (e)=>{
@@ -130,6 +131,7 @@ function updatetotal(){
          buy.classList.remove('active');
          count.innerHTML = '';
          count.classList.remove('active');
+         body.classList.remove('active');
       };
    }
    var total = 0;

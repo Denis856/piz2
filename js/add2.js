@@ -59,6 +59,7 @@ window.addEventListener('click', function (event) {
          count.innerHTML = '';
          count.classList.remove('active');
          basket.classList.remove('active');
+         body.classList.remove('active');
       };
 	}
 });
@@ -81,6 +82,7 @@ function updatetotal(){
          buy.classList.remove('active');
          count.innerHTML = '';
          count.classList.remove('active');
+         body.classList.remove('active');
       };
    }
    var total = 0;
